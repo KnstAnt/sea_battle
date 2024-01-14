@@ -29,6 +29,7 @@ impl Field {
             ships: Vec::new(),
         }
     }
+    
     pub fn add_ships(&mut self, ship_positions: &[Vec<Point>]) {
 
         ship_positions.iter().for_each(|points| {

@@ -81,6 +81,7 @@ fn parse_point(input: &str) -> Option<Point> {
             }
         }
     }
+    
     None
 }
 

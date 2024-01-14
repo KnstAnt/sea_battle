@@ -24,6 +24,7 @@ impl Player for User {
             field: Field::new(),
         }
     }
+
     fn make_ships(&self) -> Option<Vec<Vec<Point>>> {
         println!("Введите координаты кораблей. Количество кораблей: 4 однотрубных,");
         println!("3 двухтрубных, 2 трехтрубных и  1 четырехтрубный.");

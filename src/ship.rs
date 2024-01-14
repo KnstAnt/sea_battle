@@ -12,6 +12,7 @@ impl Ship {
     pub fn new(size: usize) -> Self {
         Self{hp: size}
     }
+    
     pub fn damage(&mut self) -> ShipResult {
         assert!(self.hp > 0);
 

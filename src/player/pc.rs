@@ -54,7 +54,7 @@ impl Player for PC {
         (0..4).for_each(|_| ships.push(Self::generate_ship(&ships, 1)) );
 
         Some(ships)
-    }
+    } 
 
     fn add_ships(&mut self, ship_positions: Vec<Vec<Point>>) {
         self.field.add_ships(&ship_positions);
